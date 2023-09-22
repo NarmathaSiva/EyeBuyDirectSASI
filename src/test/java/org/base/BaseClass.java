@@ -129,7 +129,12 @@ public class BaseClass {
 			a.keyDown(Keys.ARROW_DOWN).keyUp(Keys.ARROW_DOWN).perform();
 		}
 	}
-	
+	public static void scrollUp(int num) {
+		a = new Actions(driver);
+		for(int i=0; i<num;i++) {
+			a.keyDown(Keys.ARROW_UP).keyUp(Keys.ARROW_UP).perform();
+		}
+	}
 
 	//ROBOT--CLASS-----------------------------
 	public static void toPressAndReleaseKeys(Robot r,int arg) throws AWTException {
