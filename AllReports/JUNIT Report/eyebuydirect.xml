@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="341.455226">
+<testcase classname="To Validate the Eye Glasses Product Page in eyebuydirect application" name="To validate the Eye Glasses Product Page with Filters" time="109.42533">
+<system-out><![CDATA[Given User has to enter the "asasikumar0505@gmail.com" and "moov0505" and click signin to access eye glasses page.passed
+When User has to select all filters in EyeGlasses page......................passed
+Then User has to validate the number of items displayed after selecting filters in EyeGlasses page.passed
+]]></system-out>
+</testcase>
+<testcase classname="To buy product using search box" name="To add the product to cart using search box and complete payment" time="232.029896">
+<system-out><![CDATA[Given User has to SighIn the application with "ashoksasi001@gmail.com" and "moov0505".passed
+When User has to search the product.........................................passed
+Then User has to select the product in the below and add to cart............passed
+And User has to pay and buy the product and close the browser...............passed
+]]></system-out>
+</testcase>
+</testsuite>
