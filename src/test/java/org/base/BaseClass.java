@@ -67,6 +67,11 @@ public class BaseClass {
 			driver = new InternetExplorerDriver();
 		}
 	}
+
+	public static void launchChromeBrowser(String browser) {
+		WebDriverManager.chromedriver().setup();
+		driver = new ChromeDriver();
+	}
 	public static void getPageTitle() {
 		String title = driver.getTitle();
 		System.out.println("Page Title : "+title);
